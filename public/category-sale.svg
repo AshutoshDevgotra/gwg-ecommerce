@@ -1,0 +1,22 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="saleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#131C31;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" fill="url(#saleGradient)"/>
+  
+  <!-- Sale Tag -->
+  <rect x="50" y="60" width="80" height="80" rx="40" fill="#fff" opacity="0.9"/>
+  <text x="90" y="95" text-anchor="middle" fill="#ff4444" font-family="Inter, sans-serif" font-size="20" font-weight="bold">50%</text>
+  <text x="90" y="115" text-anchor="middle" fill="#ff4444" font-family="Inter, sans-serif" font-size="12" font-weight="bold">OFF</text>
+  
+  <!-- Price Tags -->
+  <rect x="160" y="70" width="60" height="20" rx="3" fill="#E8C288"/>
+  <rect x="160" y="100" width="80" height="20" rx="3" fill="#E8C288"/>
+  <rect x="160" y="130" width="70" height="20" rx="3" fill="#E8C288"/>
+  
+  <!-- Text -->
+  <text x="150" y="185" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="16" font-weight="bold">SALE ITEMS</text>
+</svg>

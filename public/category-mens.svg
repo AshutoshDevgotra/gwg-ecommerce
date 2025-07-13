@@ -1,0 +1,23 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mensGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#131C31;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#E8C288;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#mensGradient)"/>
+  
+  <!-- Male Figure -->
+  <ellipse cx="200" cy="180" rx="40" ry="45" fill="#000" opacity="0.6"/>
+  <rect x="150" y="225" width="100" height="140" rx="12" fill="#000" opacity="0.7"/>
+  <rect x="160" y="235" width="80" height="50" rx="8" fill="#E8C288" opacity="0.8"/>
+  <rect x="170" y="300" width="60" height="80" rx="6" fill="#000" opacity="0.8"/>
+  
+  <!-- Fitness Elements -->
+  <circle cx="80" cy="100" r="20" stroke="#E8C288" stroke-width="4" fill="none" opacity="0.8"/>
+  <circle cx="320" cy="400" r="15" stroke="#fff" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <!-- Text -->
+  <text x="200" y="450" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="18" font-weight="bold">MEN'S COLLECTION</text>
+  <text x="200" y="470" text-anchor="middle" fill="#E8C288" font-family="Inter, sans-serif" font-size="14">Premium Athletic Wear</text>
+</svg>
