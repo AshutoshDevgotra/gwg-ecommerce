@@ -28,7 +28,9 @@ export default function Navigation() {
       <div className="top-banner">
         <div className="offers-container">
           <div className="offer-text">
-            Get 20% off gym wear products - Free shipping over $100
+            <div className="offer-text whitespace-nowrap">
+              Get 20% off gym wear products - Free shipping over $100
+            </div>
           </div>
         </div>
       </div>
@@ -52,7 +54,7 @@ export default function Navigation() {
 
         <Link href="/">
           <Image
-            src="/logo.svg"
+            src="/Logo/logo.png"
             alt="GWG Logo"
             width={80}
             height={80}

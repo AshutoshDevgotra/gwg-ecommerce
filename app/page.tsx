@@ -42,7 +42,7 @@ export default function HomePage() {
           </div>
           <div className="hero-image">
             <Image
-              src="/hero-image.svg"
+              src="/Hero/hero-image.png"
               alt="Fitness enthusiast in premium gym wear"
               width={600}
               height={700}
@@ -53,10 +53,12 @@ export default function HomePage() {
       </section>
 
       {/* Categories Section - Disc Form */}
-      <section className="categories-section">
+      {/* <section className="categories-section">
         <div className="container">
           <h2 className="section-title">Shop by Category</h2>
           <div className="categories-disc-grid">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+
             <div className="category-disc">
               <div className="disc-inner">
                 <div className="disc-icon">👕</div>
@@ -106,9 +108,116 @@ export default function HomePage() {
                 <span className="sale-badge">50% OFF</span>
               </div>
             </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section className="categories-section py-10">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl font-semibold mb-6">Shop by Category</h2>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            <div className="flex flex-col items-center text-center">
+              <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-gray-300">
+                <img src="/ShopByCategory/Travel Accessories.jpg" alt="Travel Accessories" className="w-full h-full object-cover" />
+              </div>
+              <p className="mt-2 text-sm font-medium">Travel Accessories</p>
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-gray-300">
+                <img src="/ShopByCategory/Health Snacking.jpg" alt="Health Snacking" className="w-full h-full object-cover" />
+              </div>
+              <p className="mt-2 text-sm font-medium">Health Snacking</p>
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-gray-300">
+                <img src="/ShopByCategory/Gym Accessories.jpg" alt="Gym Accessories" className="w-full h-full object-cover" />
+              </div>
+              <p className="mt-2 text-sm font-medium">Gym Accessories</p>
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-gray-300">
+                <img src="/ShopByCategory/Health Supplements.jpg" alt="Health Supplements" className="w-full h-full object-cover" />
+              </div>
+              <p className="mt-2 text-sm font-medium">Health Supplements</p>
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-gray-300">
+                <img src="/ShopByCategory/Gym Wear.jpg" alt="Gym Wear" className="w-full h-full object-cover" />
+              </div>
+              <p className="mt-2 text-sm font-medium">Gym Wear</p>
+            </div>
+
+            {/* More category items here... */}
           </div>
         </div>
       </section>
+
+      {/* Best seller */}
+
+      <section className="py-10 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-semibold text-center mb-8">Shop Our Best Seller</h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+            {/* <!-- Card 1 --> */}
+            <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
+              <img src="/BestSeller/gym-shirt.jpg" alt="Gym wear shirt" className="w-[384px] h-[386px] object-cover" />
+              <div className="p-4">
+                <h3 className="font-semibold text-lg">Gym wear shirts</h3>
+                <div className="flex items-center text-yellow-500 text-sm mt-1">
+                  ⭐⭐⭐⭐☆ <span className="text-gray-600 ml-2">(66 Reviews)</span>
+                </div>
+                <p className="text-sm text-gray-600 mt-2">
+                  Our gym wear t-shirts are lightweight, breathable, and designed for peak performance.
+                </p>
+                <div className="mt-3 font-semibold text-black">₹ 499</div>
+                <button className="w-full mt-4 bg-black text-white py-2 rounded-full hover:bg-gray-800 transition">Add to Cart</button>
+              </div>
+            </div>
+
+            {/* <!-- Card 2 --> */}
+            <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
+              <img src="/BestSeller/bag.jpg" alt="Bag" className="w-[384px] h-[386px] object-cover" />
+              <div className="p-4">
+                <h3 className="font-semibold text-lg">Bag</h3>
+                <div className="flex items-center text-yellow-500 text-sm mt-1">
+                  ⭐⭐⭐⭐⭐ <span className="text-gray-600 ml-2">(200 Reviews)</span>
+                </div>
+                <p className="text-sm text-gray-600 mt-2">
+                  Travel in style with our spacious and durable car bags, designed to keep your essentials organized and secure.
+                </p>
+                <div className="mt-3 font-semibold text-black">₹ 1999</div>
+                <button className="w-full mt-4 bg-black text-white py-2 rounded-full hover:bg-gray-800 transition">Add to Cart</button>
+              </div>
+            </div>
+
+            {/* <!-- Card 3 --> */}
+            <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
+              <img src="/BestSeller/yoga-mat.jpg" alt="Yoga Mat" className="w-[386px] h-[384px] object-cover" />
+              <div className="p-4">
+                <h3 className="font-semibold text-lg">Yoga Mat</h3>
+                <div className="flex items-center text-yellow-500 text-sm mt-1">
+                  ⭐⭐⭐⭐☆ <span className="text-gray-600 ml-2">(240 Reviews)</span>
+                </div>
+                <p className="text-sm text-gray-600 mt-2">
+                  Our yoga mats provide a non-slip surface for ultimate stability, making every pose comfortable and secure.
+                </p>
+                <div className="mt-3 font-semibold text-black">₹ 1599</div>
+                <button className="w-full mt-4 bg-black text-white py-2 rounded-full hover:bg-gray-800 transition">Add to Cart</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
 
       {/* Features Section */}
       <section className="features-section">
